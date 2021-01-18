@@ -1,0 +1,403 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-image: url(img/banner1.fw.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    padding-top: 80px;
+}
+
+.logo {
+    width: 25%;
+    height: 80px;
+    background-color: #A0A39B;
+    float: left;
+    padding-top: 3px;
+    padding-left: 175px;
+}
+
+nav {
+    width: 72%;
+    height: 80px;
+    background-color: #A0A39B;
+    float: right;
+    padding-left: 5px;
+}
+
+.menuyeri {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menuyeri li {
+    float: left;
+}
+
+.menuyeri li a {
+    display: block;
+    text-decoration: none;
+    width: 150px;
+    height: 60px;
+    color: white;
+    text-align: center;
+    line-height: 80px;
+}
+
+.menuyeri li a:hover {
+    color: #F06D48;
+    border-bottom: 1px solid #F06D48;
+}
+
+.ikon {
+    width: 200px;
+    height: 80px;
+    float: left;
+    padding-left: 40px;
+    padding-top: 25px;
+}
+
+.ikon i {
+    font-size: 30px;
+    color: grey;
+    margin-right: 25px;
+}
+
+section {
+    width: 100%;
+    height: 620px;
+    padding-top: 40px;
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+section h2 {
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+#basalt {
+    font-size: 20px;
+    letter-spacing: 2px;
+    color: #9B9B8C;
+}
+
+.kutu {
+    width: 345px;
+    border: 1px solid black;
+    box-shadow: 3px 3px 4px #000;
+    height: 450px;
+    float: left;
+    box-shadow: 4px;
+    padding: 2px;
+    text-align: justify;
+}
+
+.kutu img {
+    opacity: .6;
+    transition: all .8s;
+    -webkit-transition: all .8s;
+    -moz-transition: all .8s;
+    -ms-transition: all .8s;
+    -o-transition: all .8s;
+}
+
+.kutu img:hover {
+    opacity: 1;
+}
+
+.kutu1 {
+    width: 345px;
+    border: 1px solid black;
+    box-shadow: 3px 3px 4px #000;
+    height: 450px;
+    float: left;
+    margin-left: 35px;
+    padding: 2px;
+    text-align: justify;
+}
+
+.kutu1 img {
+    opacity: .6;
+    transition: all .8s;
+    -webkit-transition: all .8s;
+    -moz-transition: all .8s;
+    -ms-transition: all .8s;
+    -o-transition: all .8s;
+}
+
+.kutu1 img:hover {
+    opacity: 1;
+}
+
+.baslik h2 {
+    margin-top: 0px;
+}
+
+.baslik {
+    margin-top: 0px;
+    width: 100%;
+    height: 40px;
+    background-color: #81DB1F;
+    color: #575747;
+    text-align: center;
+    line-height: 40px;
+}
+
+.alticerik {
+    width: 100%;
+    height: 1060px;
+    background-color: #979D9E;
+    padding: 20px;
+}
+
+#asdf {
+    width: 960px;
+    height: 120px;
+    background-color: white;
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+
+#asdf h1 {
+    margin: 0;
+}
+
+#asdf p {
+    color: #9A9A8C;
+    letter-spacing: 2px;
+    font-size: 26px;
+}
+
+.altsec {
+    width: 960px;
+    height: 900px;
+    margin: auto;
+    background-color: white;
+}
+
+.altsec h2 {
+    color: #2692FF;
+}
+
+.altsec p {
+    color: white;
+}
+
+.sol {
+    width: 50%;
+    height: 300px;
+    float: left;
+    padding-top: 25px;
+    padding-left: 65px;
+}
+
+.sag {
+    width: 50%;
+    height: 300px;
+    background-color: #7C7D6F;
+    float: right;
+    padding: 20px;
+    text-align: justify;
+}
+
+.sol1 {
+    width: 50%;
+    height: 300px;
+    background-color: #7C7D6F;
+    float: left;
+    padding: 20px;
+    text-align: justify;
+}
+
+.sag1 {
+    width: 50%;
+    height: 300px;
+    float: right;
+    padding-top: 25px;
+    padding-left: 25px;
+}
+
+.sol2 {
+    width: 50%;
+    height: 300px;
+    float: left;
+    padding-top: 2px;
+    padding-left: 65px;
+}
+
+.sag2 {
+    width: 50%;
+    height: 300px;
+    background-color: #7C7D6F;
+    float: right;
+    padding: 20px;
+    text-align: justify;
+}
+
+.sag a {
+    text-decoration: none;
+    display: block;
+    width: 120px;
+    height: 35px;
+    color: white;
+    background-color: #2692FF;
+    text-align: center;
+    line-height: 35px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    margin-top: 40px;
+    margin-left: 310px;
+}
+
+.sag a:hover {
+    background-color: rgb(133, 207, 241);
+}
+
+.sol1 a {
+    text-decoration: none;
+    display: block;
+    width: 120px;
+    height: 35px;
+    color: white;
+    background-color: #2692FF;
+    text-align: center;
+    line-height: 35px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    margin-top: 70px;
+    margin-left: 310px;
+}
+
+.sol1 a:hover {
+    background-color: rgb(133, 207, 241);
+}
+
+.sag2 a {
+    text-decoration: none;
+    display: block;
+    width: 120px;
+    height: 35px;
+    color: white;
+    background-color: #2692FF;
+    text-align: center;
+    line-height: 35px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    margin-top: 95px;
+    margin-left: 310px;
+}
+
+.sag2 a:hover {
+    background-color: rgb(133, 207, 241);
+}
+
+footer {
+    background-image: url(img/footer.fw.png);
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+}
+
+.takip {
+    width: 390px;
+    height: 120px;
+    margin: auto;
+    border-bottom: 2px solid white;
+    padding-top: 10px;
+}
+
+.takip h2 {
+    margin-top: 0;
+    margin-bottom: 8px;
+    color: white;
+}
+
+.takip i {
+    color: grey;
+    font-size: 60px;
+    margin-right: 20px;
+}
+
+.tel {
+    width: 190px;
+    height: 50px;
+    float: left;
+    margin-top: 50px;
+    margin-left: 150px;
+}
+
+.tel i {
+    font-size: 40px;
+    color: black;
+}
+
+.tel span {
+    font-size: 20px;
+    float: right;
+    color: white;
+    line-height: 50px;
+}
+
+.mail {
+    width: 250px;
+    height: 50px;
+    float: left;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.mail i {
+    font-size: 40px;
+    color: black;
+}
+
+.mail span {
+    font-size: 20px;
+    float: right;
+    color: white;
+    line-height: 50px;
+}
+
+.konum {
+    width: 300px;
+    height: 70px;
+    float: left;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.konum i {
+    font-size: 40px;
+    color: black;
+}
+
+.konum span {
+    font-size: 20px;
+    float: right;
+    color: white;
+}
